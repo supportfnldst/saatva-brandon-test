@@ -1,0 +1,96 @@
+.navbar {
+    background-color: #ffffff !important;
+    padding: 1.5rem 4.5rem !important; 
+}
+
+.navbar a {
+    color: #C19579;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.badge {
+    position: relative;
+    background: #C19579;
+    color: #ffffff;
+    border-radius: 50% !important;
+    top: -7px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: "Source Serif Pro";
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .product-info {padding-right: 100px;}
+    .variants-btn .btn  {
+        width: 33%;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .variants-btn .btn  {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.5rem !important;
+        margin-top: 1rem !important;
+    }
+}
+.select-mattress-type, .product-detail p {
+    font-size: 13px;
+}
+
+.select-mattress-type, .product-detail p, .btn {
+    font-size: 13px !important;
+    font-family: "Questrial", sans-serif;
+}
+
+.row {
+    margin-top: 55px;
+}
+
+.variants-btn, .cart-btn, .product-detail {
+    width: 100%;
+}
+
+.product-detail {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.variants-btn .btn {
+    
+    background: #ffffff;
+    color: #928C84;
+    border: 0;
+    border-radius: 0;
+}
+
+.variants-btn .btn:hover {
+    color: #928C84;
+}
+
+.variants-btn .btn.active {
+    background: #A6A19A;
+    color: #ffffff;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 !important;
+}
+.cart-btn .btn {
+    width: 100%;
+    background: #D4AA63;
+    border: 0;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cart-btn .btn:hover {
+    color: #ffffff;
+} 

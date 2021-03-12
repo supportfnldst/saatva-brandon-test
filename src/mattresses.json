@@ -1,0 +1,21 @@
+[    
+    {
+            "name": "Saatva Classic",
+            "price": 999,
+            "reviewRating": 4.9,
+            "imageFileName": "images/classic-carousel.jpg"
+    },
+    {
+            "name": "Loom & Leaf",
+            "price": 1299,
+            "reviewRating": 4.0,
+            "imageFileName": "images/loom-carousel.jpg"
+    },
+    {
+            "name": "Zenhaven",
+            "price": 1599,
+            "reviewRating": 4.5,
+            "imageFileName": "images/zen-carousel.jpg"
+    }
+    
+]
